@@ -13,10 +13,10 @@ daje: Prva derivacija u tacki x=1 je 4. */
 
 int main(){
     //Program ucitava koeficijente realnog tipa
-    float a,b,c;
+    double a,b,c;
     int x;
     printf("Unesi koeficijenta a,b i c koji definiraju funkciju f(x)=ax^2+bx+c:");
-    scanf("%f %f %f",&a,&b,&c);
+    scanf("%f %f %f", &a,&b,&c);
 
     if(((a<10) && (a>-10)&& ((b<10) && (b>-10))&& ((c<10) && (c>-10)))){
         printf("Unesi tacku x:");
