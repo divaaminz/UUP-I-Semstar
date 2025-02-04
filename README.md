@@ -41,6 +41,18 @@ gcc assignments/example.c -o example
 Run the compiled program:
 
 ./example
+📁 Structure
+
+The repository is organized as follows:
+
+UUP-I-Semestar/
+│-- Znanje.org/         # Tasks from the page znanje.org
+│-- Lab/           # Lab coursework
+│-- examples/           # Practice codes and lecture examples
+│-- notes/              # Personal notes and study material
+│-- README.md           # This file
+
+
 
 📜 License
 
