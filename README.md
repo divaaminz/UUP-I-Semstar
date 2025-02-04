@@ -31,11 +31,11 @@ You can use an IDE or text editor like:
 ## 🚀 How to Run
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/UUP-First-Semester.git
+   git clone https://github.com/yourusername/UUP-It-Semestar.git
    ```
 2. Navigate to the directory:
    ```sh
-   cd UUP-First-Semester
+   cd UUP-I-Semestar
    ```
 3. Compile a C file (example):
    ```sh
