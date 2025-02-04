@@ -10,10 +10,10 @@ The repository is organized as follows:
 
 ```
 UUP-First-Semester/
+│-- Labovi/             # School Work and Materials
 │-- Primjeri/           # Practice codes and lecture examples
 │-- Skripta - Zadaci/   # Larger coding projects
 │-- Znanje.org/         # Exercises from the znanje.org page
-│-- notes/              # Personal notes and study material
 │-- README.md           # This file
 ```
 
