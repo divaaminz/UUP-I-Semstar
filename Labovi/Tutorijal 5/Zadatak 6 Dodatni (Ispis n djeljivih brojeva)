@@ -1,0 +1,28 @@
+/*Korisnik unosi neki broj n.Treba ispisati do 100. ispis od 1 do
+Brojevi sa kojima je n djeljiv*/
+#include <stdio.h>
+
+int main() {
+  int n, i, niz[100], j;
+
+  printf("Unesite velicinu niza n: ");
+  scanf("%d", &n);
+  for (i = 0; i < n; i++) {
+    printf("Unesite %d. element niza: ", i + 1);
+    scanf("%d", &niz[i]);
+  }
+
+  for (i = 0; i < n; i++) {
+    printf("Djelioci  broja %d. su: ", niz[i]);
+
+    // Ispitivanje djelioca
+    for (j = 1; j <= niz[i]; j++) {
+      if (niz[i] % j == 0) {
+        printf("%d, ", j);
+      }
+    }
+    printf("\n");
+  }
+
+  return 0;
+}
