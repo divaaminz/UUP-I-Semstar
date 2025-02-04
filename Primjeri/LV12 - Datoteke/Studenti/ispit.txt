@@ -1,0 +1,3 @@
+ [ prezime ] · · · · · · · [ ime ] · · · · · [brbod]
+Anic            Ana        7 
+Markovic        Marko      14

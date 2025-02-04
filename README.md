@@ -11,8 +11,8 @@ The repository is organized as follows:
 ```
 UUP-First-Semester/
 │-- znanje.org/         # Exercises from the znanje.org page
-│-- projects/           # Larger coding projects
-│-- examples/           # Practice codes and lecture examples
+│-- Skripta - Zadaci/   # Larger coding projects
+│-- Primjeri/           # Practice codes and lecture examples
 │-- notes/              # Personal notes and study material
 │-- README.md           # This file
 ```
