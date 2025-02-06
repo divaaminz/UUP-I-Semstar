@@ -26,5 +26,11 @@ int main(){
             printf("%d ",niz[i]);
         }
     }
+            printf("\nIspis elemenata sa indeksom koji nije djeljiv sa 4: ");
+    for(i=0;i<a;i++){
+        if(niz[i]%4!=0){
+            printf("%d ",niz[i]);
+        }
+    }
 
 }
