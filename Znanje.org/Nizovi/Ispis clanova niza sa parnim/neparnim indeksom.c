@@ -15,14 +15,14 @@ int main(){
 
     printf("\nIspis elemenata sa parnim indeksom: ");
     for(i=0;i<a;i++){
-        if(niz[i]%2==0){
+        if(i%2==0){
             printf("%d ",niz[i]);
         }
     }
 
         printf("\nIspis elemenata sa neparnim indeksom: ");
     for(i=0;i<a;i++){
-        if(niz[i]%2!=0){
+        if(i%2!=0){
             printf("%d ",niz[i]);
         }
     }
