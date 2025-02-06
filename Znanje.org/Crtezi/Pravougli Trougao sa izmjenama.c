@@ -13,8 +13,8 @@ int main(){
 
     //ispis kao u zbirci
     for(i=0;i<a;i++){
-        for(j=0;j<a;j++){
-            if(j==i){
+        for(j=0;j<i;j++){
+            if(j==0){
                 printf("X");
             }else{
                 printf(" I X");
