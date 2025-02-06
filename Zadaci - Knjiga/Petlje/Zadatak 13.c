@@ -16,7 +16,7 @@ int main(){
         broj=broj/10;
     }
 
-    printf("Suma brojeva je: %d",suma);
+    printf("Suma cifara je: %d",suma);
     return 0;
 
     
