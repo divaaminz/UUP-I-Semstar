@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&x);
 
     while(x!=0){
-        c=x%10;
+        c=x%10; //Ukoliko bi korisnik unio negativne brojeve potrebno bi bilo koristiti funkciju abs(x%10)
         if(c>max)max=c;
         x=x/10;
     }
