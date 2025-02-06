@@ -1,10 +1,4 @@
-/*11. Učitati članove niza. Ispisati: susjedne članove niza čija je suma parna.
-
-*/
-
-/*Učitati članove niza. Ispisati: članove niza koji su veći od slijedećeg člana.
-
-*/
+/*Učitati članove niza. Ispisati: članove niza koji su veći od slijedećeg člana. */
 
 #include <stdio.h>
 #define max 100
@@ -21,9 +15,10 @@ int main(){
     }
 
     printf("Ispis clana niza cija je suma susjednih clanova parna: ");
-    for(i=0;i<a-1;i++){
-        if((niz[i-1]+niz[i+1])%2==0){
-            printf("%d, ", niz[i]);
+    for(i=0;i<a;i++){
+        suma=niz[i]+niz[i+1];
+        if(suma%2==0){
+            printf("n[%d]= %d n[%d]= %d suma=%d \n ",i,niz[i],i+1,niz[i+1], suma);
         }
     }
     return 0;
